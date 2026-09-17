@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import {
-    getRaidCompletion,
-    saveRaidCompletion,
+  getRaidCompletion,
+  saveRaidCompletion,
 } from "../services/raidStorage";
 
-const COOLDOWN_MS = 24 * 60 * 60 * 1000;
+const COOLDOWN_MS = 90 * 24 * 60 * 60 * 1000;
 
 interface RaidTimerState {
   isLoading: boolean;

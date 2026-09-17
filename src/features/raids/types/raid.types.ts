@@ -3,5 +3,6 @@ export type Raid = {
     name: string;
     location: string,
     cooldownDays: number;
+    image: any;
     
 }
